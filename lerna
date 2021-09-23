@@ -1,0 +1,12 @@
+[".hlean", "dark-red"]
+		]
+
+	Lerna:
+		icon: "lerna"
+		priority: 4
+		match: /^lerna\.json$/i
+		colour: "auto-blue"
+			[/\.(1([bcmsx]|has|in)?|[24568]|3(avl|bsm|3c|in|m|qt|x)?|7(d|fs|i|ipp|m|p)?|9[efps]?|chem|eqn|groff|man|mandoc|mdoc|me|mom|n|nroff|pic|tmac|tmac-u|tr|troff)$/i, "dark-green"
+				scope: /\.[gt]?roff$/i
+				alias: /^([gtn]?roff|manpage)$/i
+				interpreter: /man|mandoc|([gnt]|dit)roff/i
